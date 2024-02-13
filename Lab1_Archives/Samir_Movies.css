@@ -7,24 +7,24 @@ body{
 h1{
   text-align: center;
   color: 	#06633c;
-  font-family: Monoton;                       
+  font-family: 'Times New Roman', Times, serif;                       
 }
 
 h3{
   text-align: center;
   color: 	rgb(255, 254, 254);
-  font-family: Ultra;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }
 
 p{
   text-align:center;
   color: 	#ffffff;
-  font-family: Contrail One;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h4{
-  font-family: Contrail One;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a{
