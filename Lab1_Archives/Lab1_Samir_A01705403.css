@@ -1,0 +1,37 @@
+body{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(3, 149, 179) 100%);
+}
+
+h1 {
+    text-align: center;
+    color: 	#0abdc6;
+    font-family: Geostar Fill; 
+  }
+  
+  h3 {
+    text-align: center;
+    color: 	#089da5;
+    font-family: Orbitron;
+  }
+  
+  h4{
+    text-align: center;
+  }
+  
+  a{
+    text-align: center;
+    color: 	#0a9cf5;
+  }
+  
+  p{
+    text-align:center;
+    color: 	#ffffff;
+    }
+  
+  r{
+    text-align:center;
+    color: #b5b0b0;
+    font-family: Monospace;
+  }

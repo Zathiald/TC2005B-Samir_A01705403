@@ -1,0 +1,36 @@
+body{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgb(139, 27, 42) 35%, rgb(255, 0, 0) 100%);
+}
+
+h1{
+  text-align: center;
+  color: 	#790808;
+  font-family: 'Public Pixel', sans-serif;                        }
+
+h3{
+  text-align: center;
+  color: 	rgb(255, 255, 255);
+  font-family: Ultra;
+  
+}
+
+p{
+  text-align:center;
+  color: 	#1e0f1d;
+  font-family: Contrail One;
+}
+
+h4{
+  font-family: Contrail One;
+}
+
+a{
+  color: #ffffff;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
