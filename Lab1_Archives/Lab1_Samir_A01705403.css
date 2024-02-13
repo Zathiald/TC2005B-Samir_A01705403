@@ -1,8 +1,9 @@
 body{
 
     background: rgb(2,0,36);
-    background: linear-gradient(320deg, rgb(1, 127, 205) 0%, rgb(72, 81, 103) 35%, rgb(46, 73, 207) 80%);
+    background: linear-gradient(320deg, rgb(46, 73, 207) 45%, rgb(91, 98, 113) 35%, rgb(1, 127, 205) 50%);
 }
+
 
 header{
   background: rgb(2,0,36);
@@ -13,7 +14,7 @@ header{
 
 footer{
   background: rgb(2,0,36);
-  background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(3, 149, 179) 100%);
+  background: linear-gradient(270deg, rgba(3,149,179) 35%, rgb(9,9,121,1) 100%, rgba(2,0,36,1)0%);
   padding: 0.5px;
   text-align: center;
   font-family: 'Armata';
@@ -22,19 +23,22 @@ footer{
 table {
   border: #b2b2b2 1px solid;
 }
+
 td, th {
   border: black 1px solid;
 }
+
 h1 {
     text-align: center;
-    color: 	#127e84;
-    font-family: 'Aldrich'; 
+    color: 	#d2d2d2;
+    font-family: 'Audiowide'; 
   }
   
 h3 {
   text-align: center;
-  color: 	#089da5;
+  color: 	#2eb2bd;
   font-family:'Aclonica';
+  font-size: large;
 }
 
 h4{
@@ -49,6 +53,7 @@ a{
 p{
   text-align:center;
   color: 	#ccc9c9;
+  font-family: 'Balthazar';
   }
 
 r{
