@@ -1,37 +1,67 @@
 body{
 
     background: rgb(2,0,36);
-    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(3, 149, 179) 100%);
+    background: linear-gradient(320deg, rgb(1, 127, 205) 0%, rgb(72, 81, 103) 35%, rgb(46, 73, 207) 80%);
 }
 
+header{
+  background: rgb(2,0,36);
+  background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(3, 149, 179) 100%);
+  padding: 0.5px;
+  text-align: center;
+}
+
+footer{
+  background: rgb(2,0,36);
+  background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(3, 149, 179) 100%);
+  padding: 0.5px;
+  text-align: center;
+  font-family: 'Armata';
+}
+
+table {
+  border: #b2b2b2 1px solid;
+}
+td, th {
+  border: black 1px solid;
+}
 h1 {
     text-align: center;
-    color: 	#0abdc6;
-    font-family: 'Times New Roman', Times, serif; 
+    color: 	#127e84;
+    font-family: 'Aldrich'; 
   }
   
-  h3 {
-    text-align: center;
-    color: 	#089da5;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+h3 {
+  text-align: center;
+  color: 	#089da5;
+  font-family:'Aclonica';
+}
+
+h4{
+  text-align: center;
+}
+
+a{
+  text-align: center;
+  color: 	#0a9cf5;
+}
+
+p{
+  text-align:center;
+  color: 	#ccc9c9;
   }
-  
-  h4{
-    text-align: center;
-  }
-  
-  a{
-    text-align: center;
-    color: 	#0a9cf5;
-  }
-  
-  p{
-    text-align:center;
-    color: 	#ffffff;
-    }
-  
-  r{
-    text-align:center;
-    color: #b5b0b0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
+
+r{
+  text-align:center;
+  color: #ccc9c9;
+  font-family: 'Alerta Stencil';
+}
+
+i{
+  color:#ccc9c9;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+progress{
+  color:green;
+}
