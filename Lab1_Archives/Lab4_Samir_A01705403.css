@@ -12,7 +12,23 @@ header{
     font-family: 'Audiowide';
 }
 
-td,th{border:2px solid #000}
+td,th{
+    border:2px solid #000;
+    color: whitesmoke;
+}
+
+ul{
+    color:whitesmoke;
+}
+
+ol{
+    color:whitesmoke;
+}
+
+p{
+    text-align: center;
+    color:whitesmoke;
+}
 
 h3{
     text-align: center;
