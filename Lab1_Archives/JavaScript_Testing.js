@@ -4,91 +4,71 @@ console.warn("Esta es una advertencia");
 console.error("Esto es un error");
 console.assert(1==1);
 
-//Constante 
-const precio = 50;
-
-//Forma mas moderna de establecer variable
-let cantidad=1;
-
-//Alert, Prompt, Confirm
-alert("ADVERTENCIA");
-
-const nombre = prompt("Como te llamas?");
-
-console.log("Hola"+nombre);
-
-
-// Primero, definimos las dos imágenes
-var imagen1 = "https://pbs.twimg.com/media/FDfDlc5VIAU4qq_?format=jpg&name=large";
-var imagen2 = "https://i.imgflip.com/37hey3.png?a473544";
-
-const hambre = confirm("Tienes hambre?");
-
-
-if(hambre){
-    console.log("pues compra");
+// 1. Tabla de cuadrados y cubos
+let num = prompt("Por favor, introduce un numero");
+document.write("<table><tr><th><i>Numero</i></th><th>Cuadrado</th><th>Cubo</th></tr>");
+for(let i = 1; i <= num; i++){
+    document.write("<tr><td>" + i + "</td><td>" + i*i + "</td><td>" + i*i*i + "</td></tr>");
 }
-else{
-    console.log("ta bien");
-}
+document.write("</table>");
 
-//Funciones tradicionales
-function construir(){
-    console.log("Casa construida");
-}
-
-construir();
-
-//Funciones modernas
-const casa = () => {
-    console.log("Construyendo bomba de hidrogeno");
-};
-
-casa();
-
-const desayuno = (comida) => {
-    console.log("El desayuno es " + comida);
-}
-
-desayuno("amog us");
-
-// Arreglos
-const arreglo = ["Elemento"];
-const arreglo2 = new Array();
-
-arreglo.push("Otro elemento");
-arreglo.push(5);
-
-arreglo[10]="uno mas";
-
-console.log(arreglo);
-
-arreglo["dos"]= 8;
-
-//Recorrer arreglos
-for(let posicion of arreglo){
-    console.log(posicion);
-}
-
-//Objetos
-
-const objeto = {atributo: "valor",atributo: "valor2"};
-objeto.atributo+5;
-console.log(objeto);
-
-for(let atributo in objeto){
-    console.log(atributo);
-}
-
-//Modificar html
-// Dependiendo del resultado, mostramos una imagen u otra
-if (hambre) {
-    document.getElementById("image").src = imagen2;
-    document.write("wahoo");
+// 2. Suma de números aleatorios
+let num1 = Math.floor(Math.random() * 100);
+let num2 = Math.floor(Math.random() * 100);
+let start = new Date();
+let userAnswer = prompt("¿Cuanto es " + num1 + " + " + num2 + "?");
+let end = new Date();
+let timeTaken = (end - start) / 1000;
+if(userAnswer == num1 + num2){
+    alert("Correcto! Te tomo " + timeTaken + " segundos.");
 } else {
-    document.getElementById("image").src = imagen1;
-    document.write("cringe");
+    alert("Incorrecto. Te tomo " + timeTaken + " segundos.");
 }
+
+// 3. Contador
+function contador(arr){
+    let negativos = arr.filter(x => x < 0).length;
+    let ceros = arr.filter(x => x === 0).length;
+    let positivos = arr.filter(x => x > 0).length;
+    return [negativos, ceros, positivos];
+}
+
+var arreglo=[-5,-4,-3,-2,-1,0,1,2,3,4,5];
+var result = contador(arreglo);
+
+console.log("Pregunta 3")
+console.log(arreglo);
+console.log(result);
+
+
+
+// 4. Promedios
+function promedios(arr){
+    return arr.map(x => x.reduce((a, b) => a + b, 0) / x.length);
+}
+
+
+var arreglo2=[[1,2,3],[4,5,6],[7,8,9]];
+var result2= promedios(arreglo2);
+
+console.log("Pregunta 4")
+console.log(arreglo2);
+console.log(result2);
+
+
+// 5. Inverso
+function inverso(num){
+    return parseInt(num.toString().split('').reverse().join(''));
+}
+
+var numero=12345;
+var result3=inverso(numero);
+
+
+console.log("Pregunta 5")
+console.log(numero);
+console.log(result3);
+
 
 
 

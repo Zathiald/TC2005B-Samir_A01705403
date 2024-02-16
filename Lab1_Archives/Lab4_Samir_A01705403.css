@@ -1,0 +1,18 @@
+body{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg,#9e2f29 15%,#901313 47%,#b21414 60%);
+}
+
+header{
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg,#eb817b 15%,#763737 47%,#710707 60%);
+    color:whitesmoke;
+    font-family: 'Audiowide';
+}
+
+h3{
+    text-align: center;
+    color:whitesmoke;
+}
