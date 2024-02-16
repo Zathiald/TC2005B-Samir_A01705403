@@ -10,3 +10,5 @@ footer,header{background:#020024;padding:.5px;text-align:center}
         #l{color:#0a9cf5}p{font-family:Balthazar}
         .r{font-family:'Alerta Stencil'}
         i{font-family:'Alerta Stencil'}
+        ul,ol{color:whitesmoke;}
+        details{color:whitesmoke;}

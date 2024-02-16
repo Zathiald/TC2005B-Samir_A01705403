@@ -17,11 +17,11 @@ td,th{
     color: whitesmoke;
 }
 
-ul{
+ul,ol{
     color:whitesmoke;
 }
 
-ol{
+details{
     color:whitesmoke;
 }
 
