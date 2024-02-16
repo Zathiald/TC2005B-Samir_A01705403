@@ -6,7 +6,7 @@ console.assert(1==1);
 
 // 1. Tabla de cuadrados y cubos
 let num = prompt("Por favor, introduce un numero");
-document.write("<table><tr><th><i>Numero</i></th><th><i>Cuadrado</i></th><th><i>Cubo</i></th></tr>");
+document.write("<table class='table is-bordered is-striped is-narrow is-hoverable is-fullwidth'><tr><th><i>Numero</i></th><th><i>Cuadrado</i></th><th><i>Cubo</i></th></tr>");
 for(let i = 1; i <= num; i++){
     document.write("<tr><td><i>" + i + "</i></td><td>" + "<i>" + i*i + "</td><td></i>" + "<i>" + i*i*i + "</i></td></tr>");
 }
@@ -98,17 +98,17 @@ function calcularFactorial() {
     let calculator = new FactorialCalculator(number);
     if (calculator.validateNumber()) {
         let result = calculator.calculateFactorial();
-        document.getElementById('result').innerHTML = "<p class='r'><em> El factorial de " + number  + " es " + result + "</p></em>" ;
+        document.getElementById('result').innerHTML = "<p class='subtitle is-5'><em> El factorial de " + number  + " es " + result + "</p></em>" ;
     } else {
-        document.getElementById('result').innerHTML = "<p class='r'><em>Por favor, ingresa un numero entero no negativo.</p></em>";
+        document.getElementById('result').innerHTML = "<p class='subtitle is-5'><em>Por favor, ingresa un numero entero no negativo.</p></em>";
     }
 }
 
 
-document.write("<h3><em> Problema 6</em></h3>");
-document.write("<p class='r'><em>El calculo del factorial de un numero es el producto de todos los numeros enteros positivos desde 1 hasta ese numero, por ejemplo el factorial de 5 es 1*2*3*4*5=120</p></em>");
-document.write("<input type='number' id='number' placeholder='Ingresa un numero'>");
-document.write("<button onclick='calcularFactorial()'> Calcular Factorial</button>");
+document.write("<h3 class='title is-3 has-text-centered is-four-fifths'><em> Problema 6</em></h3>");
+document.write("<p class='subtitle is-5'><em>El calculo del factorial de un numero es el producto de todos los numeros enteros positivos desde 1 hasta ese numero, por ejemplo el factorial de 5 es 1*2*3*4*5=120</p></em>");
+document.write("<input type='number' id='number' class='box' placeholder='Ingresa un numero'>");
+document.write("<button class='button is-dark' onclick='calcularFactorial()'> Calcular Factorial</button>");
 document.write("<p id='result'></p>");
 
 
