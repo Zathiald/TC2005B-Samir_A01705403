@@ -3,8 +3,9 @@
     padding: 20px;
 }
 
-#quantity1,#quantity2,#quantity3 {
+#quantity1,#quantity2,#quantity3,#quantity4 {
     width: 100%;
+    padding: 20px;
 }
 
 
