@@ -8,9 +8,6 @@ let play=350;
 let xbox=200;
 let wiiu=100;
 
-function updateValue(id, val) {
-    document.getElementById('displayValue' + id).innerText = val;
-}
 
 document.getElementById('quantity1').addEventListener('input', function() {
     updateValue(1, this.value);
@@ -81,6 +78,7 @@ function calculateTotal(){
 }
 
 function cambiarEstilo() {
+    document.getElementById('miAudio').load();
     document.getElementById('miAudio').play();
     document.getElementById("miParrafo").className = "is-size-1 has-text-danger";
     document.getElementById("miParrafo").innerHTML = "<img class='image is-rounded' src='https://media.tenor.com/vkYnJE2Jdj8AAAAM/oh-my-god.gif'>";
