@@ -66,12 +66,28 @@
             </div>
           </nav>
 
+        <audio id="miAudio" src='oh-my-god-meme.mp3' preload="auto"></audio>
+
         <section class="section">
         <div class="container">
             <h1 class="title has-text-centered is-italic is-1 is-family-code">Lab 6</h1>
             <p id='result'></p>
         
-        
+            <p id="miParrafo" class="is-size-4" onmouseover="cambiarEstilo()" onmouseout="restaurarEstilo()">Pasa el cursor sobre este texto</p>
+
+            <form>
+              <div class="field">
+                <label class="label" for="nombre">Nombre</label>
+                <div class="control has-icons-left">
+                  <input class="input" type="text" id="nombre" placeholder="Escribe tu nombre" onfocus="mostrarAyuda('nombre')" onblur="ocultarAyuda('nombre')">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+                <p class="help is-hidden" id="ayuda-nombre">Por favor, introduce tu nombre completo.</p>
+              </div>
+            </form>
+                    
           <div class="content">
             <ol>
               <li>

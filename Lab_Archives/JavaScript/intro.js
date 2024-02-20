@@ -80,6 +80,26 @@ function calculateTotal(){
     factura.innerHTML += '<div class="has-text-centered">Total: ' + total + '<br></div>';
 }
 
+function cambiarEstilo() {
+    document.getElementById('miAudio').play();
+    document.getElementById("miParrafo").className = "is-size-1 has-text-danger";
+    document.getElementById("miParrafo").innerHTML = "<img class='image is-rounded' src='https://media.tenor.com/vkYnJE2Jdj8AAAAM/oh-my-god.gif'>";
+}
+  
+function restaurarEstilo() {
+    document.getElementById('miAudio').pause();
+    document.getElementById("miParrafo").className = "is-size-4";
+    document.getElementById("miParrafo").innerHTML = "Pasa el cursor sobre este texto";
+}
+
+function mostrarAyuda(id) {
+    document.getElementById('ayuda-' + id).classList.remove('is-hidden');
+  }
+  
+  function ocultarAyuda(id) {
+    document.getElementById('ayuda-' + id).classList.add('is-hidden');
+  }
+
 
 
 
