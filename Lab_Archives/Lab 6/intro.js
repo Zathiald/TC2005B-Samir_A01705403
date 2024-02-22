@@ -8,10 +8,6 @@ let play=350;
 let xbox=200;
 let wiiu=100;
 
-function updateValue(id, val) {
-    document.getElementById('displayValue' + id).innerText = val;
-}
-
 document.getElementById('quantity1').addEventListener('input', function() {
     updateValue(1, this.value);
 });
@@ -80,6 +76,7 @@ function calculateTotal(){
     factura.innerHTML += '<div class="has-text-centered">Total: ' + total + '<br></div>';
 }
 
+  
 function cambiarEstilo() {
     document.getElementById("miParrafo").className = "is-size-1 has-text-danger";
     document.getElementById("miParrafo").innerHTML = "BOO! ah te espante";
