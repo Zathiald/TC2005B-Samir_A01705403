@@ -81,13 +81,11 @@ function calculateTotal(){
 }
 
 function cambiarEstilo() {
-    document.getElementById('miAudio').play();
     document.getElementById("miParrafo").className = "is-size-1 has-text-danger";
-    document.getElementById("miParrafo").innerHTML = "<img class='image is-rounded' src='https://media.tenor.com/vkYnJE2Jdj8AAAAM/oh-my-god.gif'>";
+    document.getElementById("miParrafo").innerHTML = "BOO! ah te espante";
 }
   
 function restaurarEstilo() {
-    document.getElementById('miAudio').pause();
     document.getElementById("miParrafo").className = "is-size-4";
     document.getElementById("miParrafo").innerHTML = "Pasa el cursor sobre este texto";
 }
